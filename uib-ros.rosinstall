@@ -12,7 +12,7 @@
 - git: {local-name: uib-ros/albatros_motor_board, uri: 'gitosis@opt.uib.es:uib-ros/albatros_motor_board.git',
     version: develop}
 - git: {local-name: uib-ros/camera1394stereo, uri: 'git@github.com:srv/camera1394stereo.git',
-    version: fuerte-devel}
+    version: fuerte}
 - git: {local-name: uib-ros/feature_extraction, uri: 'gitosis@opt.uib.es:uib-ros/feature_extraction.git',
     version: develop}
 - git: {local-name: uib-ros/fugu_configurations, uri: 'gitosis@opt.uib.es:uib-ros/fugu_configurations.git',
@@ -21,7 +21,7 @@
     version: develop}
 - git: {local-name: uib-ros/object_detection, uri: 'gitosis@opt.uib.es:uib-ros/object_detection.git',
     version: develop}
-- git: {local-name: uib-ros/pattern_pose_estimation, uri: 'gitosis@opt.uib.es:uib-ros/pattern_pose_estimation.git',
+- git: {local-name: uib-ros/pattern_pose_estimation, uri: 'https://github.com/srv/pattern_pose_estimation.git',
     version: develop}
 - git: {local-name: uib-ros/srv_ecto_vision, uri: 'git@github.com:srv/srv_ecto_vision.git',
     version: develop}
@@ -67,8 +67,6 @@
 - git: {local-name: uib-ros/stereo_slam, uri: 'https://github.com/srv/stereo_slam.git',
     version: master}
 - git: {local-name: uib-ros/underwater_simulation, uri: 'https://github.com/srv/underwater_simulation.git',
-    version: master}
-- git: {local-name: uib-ros/udg_triton, uri: 'https://plnegre@bitbucket.org/udg_cirs/udg_triton.git',
     version: master}
 - git: {local-name: uib-ros/valve_tracker_triton, uri: 'https://github.com/srv/valve_tracker_triton.git',
     version: master}
