@@ -38,9 +38,9 @@
 - git: {local-name: uib-ros/arm_camera_calibration, uri: 'gitosis@opt.uib.es:uib-ros/arm_camera_calibration.git',
     version: develop}
 - git: {local-name: uib-ros/imu_odometer, uri: 'gitosis@opt.uib.es:uib-ros/imu_odometer.git',
-    version: fuerte}
-- git: {local-name: uib-ros/memsense_imu, uri: 'https://github.com/srv/memsense_imu.git',
     version: develop}
+- git: {local-name: uib-ros/memsense_imu, uri: 'https://github.com/srv/memsense_imu.git',
+    version: fuerte}
 - git: {local-name: uib-ros/alarm, uri: 'gitosis@opt.uib.es:uib-ros/alarm.git', version: develop}
 - git: {local-name: uib-ros/auv_framework, uri: 'git@github.com:srv/auv_framework.git',
     version: fuerte-devel}
