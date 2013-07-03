@@ -9,19 +9,19 @@
 - setup-file: {local-name: /opt/ros/fuerte/setup.sh}
 - other: {local-name: sandbox}
 - other: {local-name: external}
-- git: {local-name: uib-ros/albatros_motor_board, uri: 'gitosis@optimus:uib-ros/albatros_motor_board.git',
+- git: {local-name: uib-ros/albatros_motor_board, uri: 'gitosis@opt.uib.es:uib-ros/albatros_motor_board.git',
     version: develop}
 - git: {local-name: uib-ros/camera1394stereo, uri: 'git@github.com:srv/camera1394stereo.git',
     version: fuerte-devel}
-- git: {local-name: uib-ros/feature_extraction, uri: 'gitosis@optimus:uib-ros/feature_extraction.git',
+- git: {local-name: uib-ros/feature_extraction, uri: 'gitosis@opt.uib.es:uib-ros/feature_extraction.git',
     version: develop}
-- git: {local-name: uib-ros/fugu_configurations, uri: 'gitosis@optimus:uib-ros/fugu_configurations.git',
+- git: {local-name: uib-ros/fugu_configurations, uri: 'gitosis@opt.uib.es:uib-ros/fugu_configurations.git',
     version: develop}
-- git: {local-name: uib-ros/image_proc_custom, uri: 'gitosis@optimus:uib-ros/image_proc_custom.git',
+- git: {local-name: uib-ros/image_proc_custom, uri: 'gitosis@opt.uib.es:uib-ros/image_proc_custom.git',
     version: develop}
-- git: {local-name: uib-ros/object_detection, uri: 'gitosis@optimus:uib-ros/object_detection.git',
+- git: {local-name: uib-ros/object_detection, uri: 'gitosis@opt.uib.es:uib-ros/object_detection.git',
     version: develop}
-- git: {local-name: uib-ros/pattern_pose_estimation, uri: 'gitosis@optimus:uib-ros/pattern_pose_estimation.git',
+- git: {local-name: uib-ros/pattern_pose_estimation, uri: 'gitosis@opt.uib.es:uib-ros/pattern_pose_estimation.git',
     version: develop}
 - git: {local-name: uib-ros/srv_ecto_vision, uri: 'git@github.com:srv/srv_ecto_vision.git',
     version: develop}
@@ -29,26 +29,26 @@
 - git: {local-name: uib-ros/srv_trident, uri: 'git@github.com:srv/srv_trident.git',
     version: develop}
 - git: {local-name: uib-ros/viso2, uri: 'git@github.com:srv/viso2.git', version: fuerte-devel}
-- git: {local-name: uib-ros/stereo_camera_subscriber, uri: 'gitosis@optimus:uib-ros/stereo_camera_subscriber.git',
+- git: {local-name: uib-ros/stereo_camera_subscriber, uri: 'gitosis@opt.uib.es:uib-ros/stereo_camera_subscriber.git',
     version: develop}
-- git: {local-name: uib-ros/vision_msgs, uri: 'gitosis@optimus:uib-ros/vision_msgs.git',
+- git: {local-name: uib-ros/vision_msgs, uri: 'gitosis@opt.uib.es:uib-ros/vision_msgs.git',
     version: develop}
-- git: {local-name: uib-ros/visual_odometry, uri: 'gitosis@optimus:uib-ros/visual_odometry.git',
+- git: {local-name: uib-ros/visual_odometry, uri: 'gitosis@opt.uib.es:uib-ros/visual_odometry.git',
     version: develop}
-- git: {local-name: uib-ros/arm_camera_calibration, uri: 'gitosis@optimus:uib-ros/arm_camera_calibration.git',
+- git: {local-name: uib-ros/arm_camera_calibration, uri: 'gitosis@opt.uib.es:uib-ros/arm_camera_calibration.git',
     version: develop}
-- git: {local-name: uib-ros/imu_odometer, uri: 'gitosis@optimus:uib-ros/imu_odometer.git',
+- git: {local-name: uib-ros/imu_odometer, uri: 'gitosis@opt.uib.es:uib-ros/imu_odometer.git',
     version: develop}
-- git: {local-name: uib-ros/memsense_imu, uri: 'gitosis@optimus:uib-ros/memsense_imu.git',
+- git: {local-name: uib-ros/memsense_imu, uri: 'gitosis@opt.uib.es:uib-ros/memsense_imu.git',
     version: develop}
-- git: {local-name: uib-ros/alarm, uri: 'gitosis@optimus:uib-ros/alarm.git', version: develop}
+- git: {local-name: uib-ros/alarm, uri: 'gitosis@opt.uib.es:uib-ros/alarm.git', version: develop}
 - git: {local-name: uib-ros/auv_framework, uri: 'git@github.com:srv/auv_framework.git',
     version: fuerte-devel}
-- git: {local-name: uib-ros/fugu_gui, uri: 'gitosis@optimus:uib-ros/fugu_gui.git',
+- git: {local-name: uib-ros/fugu_gui, uri: 'gitosis@opt.uib.es:uib-ros/fugu_gui.git',
     version: master}
-- git: {local-name: uib-ros/object_pose_estimation, uri: 'gitosis@optimus:uib-ros/object_pose_estimation.git',
+- git: {local-name: uib-ros/object_pose_estimation, uri: 'gitosis@opt.uib.es:uib-ros/object_pose_estimation.git',
     version: master}
-- git: {local-name: uib-ros/visual_altimeter, uri: 'gitosis@optimus:uib-ros/visual_altimeter.git',
+- git: {local-name: uib-ros/visual_altimeter, uri: 'gitosis@opt.uib.es:uib-ros/visual_altimeter.git',
     version: master}
 - git: {local-name: uib-ros/rosdistro, uri: 'git@github.com:srv/rosdistro.git', version: master}
 - git: {local-name: uib-ros/odometry_evaluation, uri: 'git@github.com:srv/odometry_evaluation.git',
