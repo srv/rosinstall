@@ -1,0 +1,60 @@
+# IT IS UNLIKELY YOU WANT TO EDIT THIS FILE BY HAND,
+# UNLESS FOR REMOVING ENTRIES.
+# IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
+# USE THE rosinstall TOOL INSTEAD.
+# IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
+- other: {local-name: /opt/ros/fuerte/share/ros}
+- other: {local-name: /opt/ros/fuerte/share}
+- other: {local-name: /opt/ros/fuerte/stacks}
+- setup-file: {local-name: /opt/ros/fuerte/setup.sh}
+
+- git: {local-name: rosinstall, uri: 'git@github.com:srv/rosinstall.git', version: master}
+
+- git: {local-name: uib-ros/rosdistro, uri: 'git@github.com:srv/rosdistro.git', version: master}
+
+- git: {local-name: uib-ros/alarm, uri: 'git@github.com:srv/alarm.git', version: fuerte-devel}
+- git: {local-name: uib-ros/albatros_motor_board, uri: 'git@github.com:srv/albatros_motor_board.git', version: fuerte-devel}
+- git: {local-name: uib-ros/arm_camera_calibration, uri: 'git@github.com:srv/arm_camera_calibration.git', version: fuerte-devel}
+- git: {local-name: uib-ros/arm_control, uri: 'git@github.com:srv/arm_control.git', version: fuerte-devel}
+- git: {local-name: uib-ros/auv_framework, uri: 'git@github.com:srv/auv_framework.git', version: fuerte-devel}
+- git: {local-name: uib-ros/camera1394stereo, uri: 'git@github.com:srv/camera1394stereo.git', version: fuerte-devel}
+- git: {local-name: uib-ros/ccny_vision, uri: 'git@github.com:srv/ccny_vision.git', version: fuerte-devel}
+- git: {local-name: uib-ros/color_3D_tracker, uri: 'git@github.com:srv/color_3D_tracker.git', version: fuerte-devel}
+- git: {local-name: uib-ros/feature_extraction, uri: 'git@github.com:srv/feature_extraction.git', version: fuerte-devel}
+- git: {local-name: uib-ros/fovis, uri: 'git@github.com:srv/fovis.git', version: fuerte-devel}
+- git: {local-name: uib-ros/fugu_configurations, uri: 'git@github.com:srv/fugu_configurations.git', version: fuerte-devel}
+- git: {local-name: uib-ros/fugu_gui, uri: 'git@github.com:srv/fugu_gui.git', version: fuerte-devel}
+- git: {local-name: uib-ros/image_proc_custom, uri: 'git@github.com:srv/image_proc_custom.git', version: fuerte-devel}
+- git: {local-name: uib-ros/imu_odometer, uri: 'git@github.com:srv/imu_odometer.git', version: fuerte-devel}
+- git: {local-name: uib-ros/memsense_imu, uri: 'git@github.com:srv/memsense_imu.git', version: fuerte-devel}
+- git: {local-name: uib-ros/mosaic_pose_estimation, uri: 'git@github.com:srv/mosaic_pose_estimation.git', version: fuerte-devel}
+- git: {local-name: uib-ros/nmea_gps_driver, uri: 'git@github.com:srv/nmea_gps_driver.git', version: fuerte-devel}
+- git: {local-name: uib-ros/object_detection, uri: 'git@github.com:srv/object_detection.git', version: fuerte-devel}
+- git: {local-name: uib-ros/object_pose_estimation, uri: 'git@github.com:srv/object_pose_estimation.git', version: fuerte-devel}
+- git: {local-name: uib-ros/odometry_evaluation, uri: 'git@github.com:srv/odometry_evaluation.git', version: fuerte-devel}
+- git: {local-name: uib-ros/odometry_optimization, uri: 'git@github.com:srv/odometry_optimization.git', version: fuerte-devel}
+- git: {local-name: uib-ros/pattern_pose_estimation, uri: 'git@github.com:srv/pattern_pose_estimation.git', version: fuerte-devel}
+- git: {local-name: uib-ros/pointcloud_registration, uri: 'git@github.com:srv/pointcloud_registration.git', version: fuerte-devel}
+- git: {local-name: uib-ros/pose_twist_meskf_ros, uri: 'git@github.com:srv/pose_twist_meskf_ros.git', version: fuerte-devel}
+- git: {local-name: uib-ros/srv_ecto_vision, uri: 'git@github.com:srv/srv_ecto_vision.git', version: fuerte-devel}
+- git: {local-name: uib-ros/srv_tools, uri: 'git@github.com:srv/srv_tools.git', version: fuerte-devel}
+- git: {local-name: uib-ros/srv_trident, uri: 'git@github.com:srv/srv_trident.git', version: fuerte-devel}
+- git: {local-name: uib-ros/stereo_camera_subscriber, uri: 'git@github.com:srv/stereo_camera_subscriber.git', version: fuerte-devel}
+- git: {local-name: uib-ros/stereo_slam, uri: 'git@github.com:srv/stereo_slam.git', version: fuerte-devel}
+- git: {local-name: uib-ros/stereo_slam_light, uri: 'git@github.com:srv/stereo_slam_light.git', version: fuerte-devel}
+- git: {local-name: uib-ros/template_pose_estimation, uri: 'git@github.com:srv/template_pose_estimation.git', version: fuerte-devel}
+- git: {local-name: uib-ros/triton_launchfiles, uri: 'git@github.com:srv/triton_launchfiles.git', version: fuerte-devel}
+- git: {local-name: uib-ros/underwater_simulation, uri: 'git@github.com:srv/underwater_simulation.git', version: fuerte-devel}
+- git: {local-name: uib-ros/valve_tracker_triton, uri: 'git@github.com:srv/valve_tracker_triton.git', version: fuerte-devel}
+- git: {local-name: uib-ros/vision_msgs, uri: 'git@github.com:srv/vision_msgs.git', version: fuerte-devel}
+- git: {local-name: uib-ros/viso2, uri: 'git@github.com:srv/viso2.git', version: fuerte-devel}
+- git: {local-name: uib-ros/visual_altimeter, uri: 'git@github.com:srv/visual_altimeter.git', version: fuerte-devel}
+
+- git: {local-name: external/camera_umd, uri: 'git@github.com:ktossell/camera_umd.git', version: fuerte-released}
+- git: {local-name: external/cola2, uri: 'git@bitbucket.org/udg_cirs/cola2.git', version: master}
+- git: {local-name: external/hwu-osl-ros-pkg, uri: 'git@pastis3.eps.hw.ac.uk:hwu-osl-ros-pkg.git', version: master}
+- git: {local-name: external/perception_pcl_unstable, uri: 'git@github.com:ros-perception/perception_pcl.git', version: fuerte-unstable-devel}
+- git: {local-name: external/udg_triton, uri: 'git@bitbucket.org/udg_cirs/udg_triton.git', version: master}
+
+- other: {local-name: sandbox}
+- other: {local-name: external}

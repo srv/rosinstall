@@ -1,0 +1,43 @@
+# IT IS UNLIKELY YOU WANT TO EDIT THIS FILE BY HAND,
+# UNLESS FOR REMOVING ENTRIES.
+# IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
+# USE THE rosinstall TOOL INSTEAD.
+# IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
+
+- git: {local-name: rosinstall, uri: 'git@github.com:srv/rosinstall.git', version: master}
+
+- git: {local-name: uib-ros/rosdistro, uri: 'git@github.com:srv/rosdistro.git', version: master}
+
+- git: {local-name: uib-ros/alarm, uri: 'git@github.com:srv/alarm.git', version: groovy-devel}
+- git: {local-name: uib-ros/albatros_motor_board, uri: 'git@github.com:srv/albatros_motor_board.git', version: groovy-devel}
+- git: {local-name: uib-ros/auv_framework, uri: 'git@github.com:srv/auv_framework.git', version: groovy-devel}
+- git: {local-name: uib-ros/camera1394stereo, uri: 'git@github.com:srv/camera1394stereo.git', version: groovy-devel}
+- git: {local-name: uib-ros/ccny_vision, uri: 'git@github.com:srv/ccny_vision.git', version: groovy-devel}
+- git: {local-name: uib-ros/color_3D_tracker, uri: 'git@github.com:srv/color_3D_tracker.git', version: groovy-devel}
+- git: {local-name: uib-ros/feature_extraction, uri: 'git@github.com:srv/feature_extraction.git', version: groovy-devel}
+- git: {local-name: uib-ros/fovis, uri: 'git@github.com:srv/fovis.git', version: groovy-devel}
+- git: {local-name: uib-ros/fugu_configurations, uri: 'git@github.com:srv/fugu_configurations.git', version: groovy-devel}
+- git: {local-name: uib-ros/fugu_gui, uri: 'git@github.com:srv/fugu_gui.git', version: groovy-devel}
+- git: {local-name: uib-ros/image_proc_custom, uri: 'git@github.com:srv/image_proc_custom.git', version: groovy-devel}
+- git: {local-name: uib-ros/imu_odometer, uri: 'git@github.com:srv/imu_odometer.git', version: groovy-devel}
+- git: {local-name: uib-ros/memsense_imu, uri: 'git@github.com:srv/memsense_imu.git', version: groovy-devel}
+- git: {local-name: uib-ros/mosaic_pose_estimation, uri: 'git@github.com:srv/mosaic_pose_estimation.git', version: groovy-devel}
+- git: {local-name: uib-ros/nmea_gps_driver, uri: 'git@github.com:srv/nmea_gps_driver.git', version: groovy-devel}
+- git: {local-name: uib-ros/object_detection, uri: 'git@github.com:srv/object_detection.git', version: groovy-devel}
+- git: {local-name: uib-ros/object_pose_estimation, uri: 'git@github.com:srv/object_pose_estimation.git', version: groovy-devel}
+- git: {local-name: uib-ros/odometry_evaluation, uri: 'git@github.com:srv/odometry_evaluation.git', version: groovy-devel}
+- git: {local-name: uib-ros/odometry_optimization, uri: 'git@github.com:srv/odometry_optimization.git', version: groovy-devel}
+- git: {local-name: uib-ros/pattern_pose_estimation, uri: 'git@github.com:srv/pattern_pose_estimation.git', version: groovy-devel}
+- git: {local-name: uib-ros/pointcloud_registration, uri: 'git@github.com:srv/pointcloud_registration.git', version: groovy-devel}
+- git: {local-name: uib-ros/pose_twist_meskf_ros, uri: 'git@github.com:srv/pose_twist_meskf_ros.git', version: groovy-devel}
+- git: {local-name: uib-ros/srv_tools, uri: 'git@github.com:srv/srv_tools.git', version: groovy-devel}
+- git: {local-name: uib-ros/stereo_camera_subscriber, uri: 'git@github.com:srv/stereo_camera_subscriber.git', version: groovy-devel}
+- git: {local-name: uib-ros/stereo_slam, uri: 'git@github.com:srv/stereo_slam.git', version: groovy-devel}
+- git: {local-name: uib-ros/stereo_slam_light, uri: 'git@github.com:srv/stereo_slam_light.git', version: groovy-devel}
+- git: {local-name: uib-ros/template_pose_estimation, uri: 'git@github.com:srv/template_pose_estimation.git', version: groovy-devel}
+- git: {local-name: uib-ros/triton_launchfiles, uri: 'git@github.com:srv/triton_launchfiles.git', version: groovy-devel}
+- git: {local-name: uib-ros/underwater_simulation, uri: 'git@github.com:srv/underwater_simulation.git', version: groovy-devel}
+- git: {local-name: uib-ros/valve_tracker_triton, uri: 'git@github.com:srv/valve_tracker_triton.git', version: groovy-devel}
+- git: {local-name: uib-ros/vision_msgs, uri: 'git@github.com:srv/vision_msgs.git', version: groovy-devel}
+- git: {local-name: uib-ros/viso2, uri: 'git@github.com:srv/viso2.git', version: groovy-devel}
+- git: {local-name: uib-ros/visual_altimeter, uri: 'git@github.com:srv/visual_altimeter.git', version: groovy-devel}
