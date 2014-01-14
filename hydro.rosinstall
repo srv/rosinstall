@@ -36,7 +36,7 @@
 - git: {local-name: uib-ros/odometry_optimization, uri: 'git@github.com:srv/odometry_optimization.git',
     version: hydro-devel}
 - git: {local-name: uib-ros/pattern_pose_estimation, uri: 'git@github.com:srv/pattern_pose_estimation.git',
-    version: fuerte-devel}
+    version: hydro-devel}
 - git: {local-name: uib-ros/pose_twist_meskf_ros, uri: 'git@github.com:srv/pose_twist_meskf_ros.git',
     version: hydro-devel}
 - git: {local-name: uib-ros/srv_tools, uri: 'git@github.com:srv/srv_tools.git', version: hydro-devel}
