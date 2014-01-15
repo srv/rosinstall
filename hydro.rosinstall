@@ -15,7 +15,7 @@
     version: hydro-devel}
 - git: {local-name: uib-ros/fovis, uri: 'git@github.com:srv/fovis.git', version: hydro-devel}
 - git: {local-name: uib-ros/fugu_configurations, uri: 'git@github.com:srv/fugu_configurations.git',
-    version: hydro-devel}
+    version: hydro}
 - git: {local-name: uib-ros/image_proc_custom, uri: 'git@github.com:srv/image_proc_custom.git',
     version: hydro-devel}
 - git: {local-name: uib-ros/imu_odometer, uri: 'git@github.com:srv/imu_odometer.git',
