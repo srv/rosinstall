@@ -16,7 +16,7 @@
 - git: {local-name: uib-ros/color_3D_tracker, uri: 'git@github.com:srv/color_3D_tracker.git', version: groovy-devel}
 - git: {local-name: uib-ros/feature_extraction, uri: 'git@github.com:srv/feature_extraction.git', version: groovy-devel}
 - git: {local-name: uib-ros/fovis, uri: 'git@github.com:srv/fovis.git', version: groovy-devel}
-- git: {local-name: uib-ros/fugu_configurations, uri: 'git@github.com:srv/fugu_configurations.git', version: groovy-devel}
+- git: {local-name: uib-ros/fugu_configurations, uri: 'git@github.com:srv/fugu_configurations.git', version: groovy}
 - git: {local-name: uib-ros/fugu_gui, uri: 'git@github.com:srv/fugu_gui.git', version: groovy-devel}
 - git: {local-name: uib-ros/image_proc_custom, uri: 'git@github.com:srv/image_proc_custom.git', version: groovy-devel}
 - git: {local-name: uib-ros/imu_odometer, uri: 'git@github.com:srv/imu_odometer.git', version: groovy-devel}
