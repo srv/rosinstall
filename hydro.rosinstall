@@ -40,7 +40,7 @@
 - git: {local-name: uib-ros/pose_twist_meskf_ros, uri: 'git@github.com:srv/pose_twist_meskf_ros.git',
     version: hydro-devel}
 - git: {local-name: uib-ros/srv_tools, uri: 'git@github.com:srv/srv_tools.git', version: hydro-devel}
-- git: {local-name: uib-ros/stereo_slam, uri: 'git@github.com:srv/stereo_slam.git', version hydro-devel}
+- git: {local-name: uib-ros/stereo_slam, uri: 'git@github.com:srv/stereo_slam.git', version: hydro-devel}
 - git: {local-name: uib-ros/template_pose_estimation, uri: 'git@github.com:srv/template_pose_estimation.git',
     version: hydro-devel}
 - git: {local-name: uib-ros/triton_launchfiles, uri: 'git@github.com:srv/triton_launchfiles.git',
